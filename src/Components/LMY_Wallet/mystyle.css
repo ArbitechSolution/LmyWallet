@@ -1,0 +1,255 @@
+
+
+
+	
+      .apexcharts-legend {	
+        display: flex;	
+        overflow: auto;	
+        padding: 0 10px;	
+      }	
+      .apexcharts-legend.apx-legend-position-bottom, .apexcharts-legend.apx-legend-position-top {	
+        flex-wrap: wrap	
+      }	
+      .apexcharts-legend.apx-legend-position-right, .apexcharts-legend.apx-legend-position-left {	
+        flex-direction: column;	
+        bottom: 0;	
+      }	
+      .apexcharts-legend.apx-legend-position-bottom.apexcharts-align-left, .apexcharts-legend.apx-legend-position-top.apexcharts-align-left, .apexcharts-legend.apx-legend-position-right, .apexcharts-legend.apx-legend-position-left {	
+        justify-content: flex-start;	
+      }	
+      .apexcharts-legend.apx-legend-position-bottom.apexcharts-align-center, .apexcharts-legend.apx-legend-position-top.apexcharts-align-center {	
+        justify-content: center;  	
+      }	
+      .apexcharts-legend.apx-legend-position-bottom.apexcharts-align-right, .apexcharts-legend.apx-legend-position-top.apexcharts-align-right {	
+        justify-content: flex-end;	
+      }	
+      .apexcharts-legend-series {	
+        cursor: pointer;	
+        line-height: normal;	
+      }	
+      .apexcharts-legend.apx-legend-position-bottom .apexcharts-legend-series, .apexcharts-legend.apx-legend-position-top .apexcharts-legend-series{	
+        display: flex;	
+        align-items: center;	
+      }	
+      .apexcharts-legend-text {	
+        position: relative;	
+        font-size: 14px;	
+      }	
+      .apexcharts-legend-text *, .apexcharts-legend-marker * {	
+        pointer-events: none;	
+      }	
+      .apexcharts-legend-marker {	
+        position: relative;	
+        display: inline-block;	
+        cursor: pointer;	
+        margin-right: 3px;	
+        border-style: solid;
+      }	
+      	
+      .apexcharts-legend.apexcharts-align-right .apexcharts-legend-series, .apexcharts-legend.apexcharts-align-left .apexcharts-legend-series{	
+        display: inline-block;	
+      }	
+      .apexcharts-legend-series.apexcharts-no-click {	
+        cursor: auto;	
+      }	
+      .apexcharts-legend .apexcharts-hidden-zero-series, .apexcharts-legend .apexcharts-hidden-null-series {	
+        display: none !important;	
+      }	
+      .apexcharts-inactive-legend {	
+        opacity: 0.45;	
+      }
+
+
+      .bodybg{
+        background: linear-gradient(
+          45deg
+          , #6ea1b6, #191431) !important;
+          /* border-radius: 20px; */
+          
+      } 
+
+      
+.bg-gray-gradient {
+  background: linear-gradient(
+45deg
+, #e2dede, #efefef) !important;
+}
+.radius {
+  border-radius: 12px !important;
+}
+
+.fw-bold {
+  font-weight: 700!important;
+}
+
+.h4, h4 {
+  font-size: calc(1.275rem + .3vw);
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  /* font-weight: 500; */
+  line-height: 1.2;
+}
+.btn1:not(#loginButton, #btn-buy) {
+  height: 48px;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+.radius {
+  border-radius: 12px !important;
+}
+.bg-purple {
+  background: #180c56 !important;
+}
+.text-white {
+  color: #fff!important;
+}
+.my-2 {
+  margin-top: 0.5rem!important;
+  margin-bottom: 0.5rem!important;
+}
+.w-100 {
+  width: 100%!important;
+}
+.btn-group-lg>.btn1, .btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
+.btn1 {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+
+  -moz-user-select: none;
+  user-select: none;
+
+  border: 1px solid transparent;
+  
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-icon {
+  height: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  /* height: auto; */
+}
+img, svg {
+  vertical-align: middle;
+}
+.bg-cyan {
+  background: #14f4bd !important;
+}
+
+
+.radius {
+  border-radius: 12px !important;
+}
+
+.bg-white {
+  background-color: #fff!important;
+}
+
+.fw-bold {
+  font-weight: 700!important;
+}
+
+.h3, h3 {
+  font-size: calc(1.3rem + .6vw);
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  /* font-weight: 500; */
+  line-height: 1.2;
+}
+
+.my-3 {
+  margin-top: 1rem!important;
+  margin-bottom: 1rem!important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  /* height: auto; */
+}
+.text-center {
+  text-align: center!important;
+}
+
+.fw-bold {
+  font-weight: 700!important;
+}
+.h3, h3 {
+  font-size: calc(1.3rem + .6vw);
+}
+.radius {
+  border-radius: 12px !important;
+}
+
+.bg-white {
+  background-color: #fff!important;
+}
+.text-muted {
+  color: #6c757d!important;
+}
+
+.col {
+  flex: 1 0 0%;
+}
+
+.brand-logo {
+  height: 30px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  /* height: auto; */
+}
+.fw-bold {
+  font-weight: 700!important;
+}
+.fa, .fas {
+  font-weight: 900;
+}
+
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Free";
+}
+.review-size {
+  font-size: 12px;
+  color: gray !important;
+}
+.lmy-logo-table {
+  height: 30px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  /* height: auto; */
+}
+
+.bg-black {
+  background: #000000 !important;
+}
+
+.pt-4 {
+  padding-top: 1.5rem!important;
+}
+
+.formlable{
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
